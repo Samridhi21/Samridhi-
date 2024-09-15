@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    margin: 0px;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+}
+
+.top-container {
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #66bfbf;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    background-color: none;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+h3 {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    font-size: medium;
+}
+
+.btn {
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    background-color: #11cdd4;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.bottom-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #66bfbf;
+    padding: 50px 0px 50px;
+}
+
+.bottom-container ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.bottom-container ul li a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 1.05rem;
+    padding: 20px 0;
+}
